@@ -25,7 +25,7 @@ Request parameters
 An identifier of a file the client requests.
 
 Clients may retrieve proper file identifiers from other EWP APIs (like [Outgoing Mobilities API][omobilities-spec]).
-Servers MUST be able to accept all file IDs shared to the caller through EWP APIs.
+Servers MUST be able to accept all file IDs shared with the caller through EWP APIs.
 
 
 Security
@@ -38,7 +38,7 @@ Server implementers choose which security methods they support by declaring them
 Permissions
 -----------
 
-Files should be made available only to callers that were shared the file identifier.
+Files should only be shared with those callers who have previously been provided with the file ID.
 
 
 Handling of invalid parameters
