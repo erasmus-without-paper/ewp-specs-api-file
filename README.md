@@ -28,6 +28,13 @@ Clients may retrieve proper file identifiers from other EWP APIs (like [Outgoing
 Servers MUST be able to accept all file IDs shared with the caller through EWP APIs.
 
 
+File immutability
+-----------------
+
+The server MUST keep the file unchanged after its creation. This means that the client MAY cache the file.
+Every file change MUST change to file id. The requester will need to rely on CNR to keep up with the changes.
+
+
 Security
 --------
 
