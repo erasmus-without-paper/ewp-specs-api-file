@@ -32,7 +32,7 @@ File immutability
 -----------------
 
 The server MUST keep the file unchanged after its creation. This means that the client MAY cache the file.
-Every file change MUST change to file id. The requester will need to rely on CNR to keep up with the changes.
+Every file change MUST change the file id. The requester will need to rely on CNR to keep up with the changes.
 
 
 Security
