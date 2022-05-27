@@ -2,9 +2,10 @@ Release notes
 =============
 
 This document describes all the changes made to the *File API* document,
-starting from its first beta draft version.
+starting from its first stable version.
 
-0.1.0
+
+1.0.0
 -----
 
-Initial release.
+* Initial release.
